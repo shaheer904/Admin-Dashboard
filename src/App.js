@@ -1,26 +1,28 @@
-import Sidebar from './components/sidebar/sidebar';
-import Topbar from './components/topbar/Topbar';
+import Sidebar from './components/sidebar/sidebar'
+import Topbar from './components/topbar/Topbar'
 import './App.css'
-import Home from './pages/Home/Home';
+import Home from './pages/Home/Home'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
+import UserList from './pages/UserList/UserList'
+import UserPage from './pages/userpage/UserPage'
 function App() {
   return (
-    <div>
-     <Topbar />
-     <div className='container'>
-<Sidebar />
+    <Router>
+      <div>
+        <Topbar />
+        <div className='container'>
+          <Sidebar />
+          <Routes>
+            <Route exact path='/' element={<Home />}></Route>
+            <Route exact path='/users' element={<UserList />}></Route>
+            <Route exact path='/user/:id' element={<UserPage />}></Route>
+          </Routes>
 
-
-
-<Home />
-<div className='others'>
-
-
-
-</div>
-
-     </div>
-    </div>
-  );
+          <div className='others'></div>
+        </div>
+      </div>
+    </Router>
+  )
 }
 
-export default App;
+export default App
