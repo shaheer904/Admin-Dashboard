@@ -5,7 +5,7 @@ const FeaturedInfo = () => {
   return (
     <div className="featured">
       <div className="featuredItem">
-        <span className="featuredTitle"> Revenue</span>
+        <span className="featuredTitle">Revenue</span>
         <div className="featuredMoneyContainer">
           <span className="featuredMoney">$2,258</span>
           <span className="featuredMoneyRate">
@@ -15,7 +15,7 @@ const FeaturedInfo = () => {
         <span className="featuredSub">Compared to last month</span>
       </div>
       <div className="featuredItem">
-        <span className="featuredTitle"> sales</span>
+        <span className="featuredTitle">Sales</span>
         <div className="featuredMoneyContainer">
           <span className="featuredMoney">$3,258</span>
           <span className="featuredMoneyRate">
