@@ -103,3 +103,63 @@ export const rowsData = [
     transaction: '$120.00',
   },
 ]
+
+
+export const productRows=[
+  {
+    id: 1,
+    name: 'Air Pods',
+    img: '/images/topbarimage.jpg',
+    stock: '25',
+    status: 'active',
+    price: '$120.00',
+  },
+  {
+    id: 2,
+    name: 'Air Pods',
+    img: '/images/topbarimage.jpg',
+    stock: '25',
+    status: 'active',
+    price: '$120.00',
+  },
+  {
+    id: 3,
+    name: 'Air Pods',
+    img: '/images/topbarimage.jpg',
+    stock: '25',
+    status: 'active',
+    price: '$120.00',
+  },
+  {
+    id: 4,
+    name: 'Air Pods',
+    img: '/images/topbarimage.jpg',
+    stock: '25',
+    status: 'active',
+    price: '$120.00',
+  },
+  {
+    id: 5,
+    name: 'Air Pods',
+    img: '/images/topbarimage.jpg',
+    stock: '25',
+    status: 'active',
+    price: '$120.00',
+  },
+  {
+    id: 6,
+    name: 'Air Pods',
+    img: '/images/topbarimage.jpg',
+    stock: '25',
+    status: 'active',
+    price: '$120.00',
+  },
+  {
+    id: 7,
+    name: 'Air Pods',
+    img: '/images/topbarimage.jpg',
+    stock: '25',
+    status: 'active',
+    price: '$120.00',
+  },
+]

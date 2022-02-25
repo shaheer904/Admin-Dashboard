@@ -8,3 +8,9 @@
     flex: 4;
     background-color: brown;
 } */
+
+
+.link{
+    text-decoration: none;
+    color: inherit;
+}
