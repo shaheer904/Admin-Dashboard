@@ -44,6 +44,20 @@ export const userData = [
     'Active User': 6355,
   },
 ]
+export const productData = [
+  {
+    name: 'Jan',
+    Sales: 4000,
+  },
+  {
+    name: 'Feb',
+    Sales: 5000,
+  },
+  {
+    name: 'Mar',
+    Sales: 2000,
+  },
+]
 
 export const rowsData = [
   {
@@ -104,8 +118,7 @@ export const rowsData = [
   },
 ]
 
-
-export const productRows=[
+export const productRows = [
   {
     id: 1,
     name: 'Air Pods',
